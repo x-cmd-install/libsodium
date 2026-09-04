@@ -7,7 +7,7 @@ about:
   head: 403efe6
   archived: false
   latestVersion: 1.0.22-RELEASE
-  collectedAt: 2026-09-04T19:59:45Z
+  collectedAt: 2026-09-04T20:38:59Z
 timeline:
   created: 2013-01-20
   lastCommit: 2026-08-31
@@ -91,6 +91,124 @@ total:
   openIssue: 1
   commit: 4698
 ---
+path: /home/runner/.x-repo/github.com/jedisct1/libsodium
+collectedAt: 2026-09-04T20:39:01Z
+loc:
+  C:
+    code: 46826
+    comments: 1300
+    blanks: 5909
+    files: 250
+  CHeader:
+    code: 15699
+    comments: 1018
+    blanks: 2667
+    files: 197
+  VisualStudioProject:
+    code: 4334
+    comments: 0
+    blanks: 2
+    files: 10
+  AssemblyGAS:
+    code: 2985
+    comments: 14
+    blanks: 50
+    files: 7
+  Zig:
+    code: 1868
+    comments: 7
+    blanks: 191
+    files: 16
+  Sh:
+    code: 1585
+    comments: 81
+    blanks: 298
+    files: 17
+  Automake:
+    code: 1126
+    comments: 0
+    blanks: 150
+    files: 9
+  MsBuild:
+    code: 1106
+    comments: 54
+    blanks: 213
+    files: 42
+  ModuleDef:
+    code: 758
+    comments: 0
+    blanks: 0
+    files: 1
+  M4:
+    code: 657
+    comments: 615
+    blanks: 112
+    files: 11
+  Pan:
+    code: 520
+    comments: 0
+    blanks: 5
+    files: 5
+  VisualStudioSolution:
+    code: 479
+    comments: 0
+    blanks: 9
+    files: 9
+  Xml:
+    code: 256
+    comments: 0
+    blanks: 0
+    files: 16
+  Python:
+    code: 221
+    comments: 2
+    blanks: 30
+    files: 1
+  Batch:
+    code: 181
+    comments: 2
+    blanks: 21
+    files: 4
+  Yaml:
+    code: 162
+    comments: 0
+    blanks: 9
+    files: 3
+  CSharp:
+    code: 35
+    comments: 0
+    blanks: 8
+    files: 1
+  Autoconf:
+    code: 27
+    comments: 11
+    blanks: 14
+    files: 3
+  Bitbake:
+    code: 22
+    comments: 0
+    blanks: 0
+    files: 1
+  VBScript:
+    code: 11
+    comments: 0
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 73
+    blanks: 53
+    files: 2
+  Text:
+    code: 0
+    comments: 862
+    blanks: 0
+    files: 1
+total:
+  code: 78858
+  comments: 4039
+  blanks: 9742
+  files: 607
 ---
 date: "2026-08-24"
 repo:
