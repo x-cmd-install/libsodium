@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1337453,
       "digest": "sha256:1d99e0afaf27bce664249232e9dc628ae6bb7b49f0ab53ad6db372b028a35d9d",
-      "download_count": 1247,
+      "download_count": 1250,
       "created_at": "2026-04-10T10:03:42Z",
       "updated_at": "2026-04-10T10:03:44Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-mingw.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 324,
       "digest": "sha256:33e418bf51723517a43e7023331f231d59221730ed8ff0396cfb69ed7c1eab6a",
-      "download_count": 69,
+      "download_count": 70,
       "created_at": "2026-04-10T10:03:44Z",
       "updated_at": "2026-04-10T10:03:44Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-mingw.tar.gz.minisig"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 594,
       "digest": "sha256:eed6c74fc247b6737a926197e597b7f3ffa8ac49e5e1832048bfb4689d73e6b7",
-      "download_count": 68,
+      "download_count": 69,
       "created_at": "2026-04-10T10:03:44Z",
       "updated_at": "2026-04-10T10:03:44Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-mingw.tar.gz.sig"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 17690194,
       "digest": "sha256:3e03a726fac4bc09cb61d8f29d658ef7a5eca0811de59082130414f7ca2e4279",
-      "download_count": 3986,
+      "download_count": 3992,
       "created_at": "2026-04-10T10:03:44Z",
       "updated_at": "2026-04-10T10:03:46Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-msvc.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 320,
       "digest": "sha256:3210cf4d985f7b192bb8d5eb2ec7f481e0f47420f144cf1069921f714bfad1d1",
-      "download_count": 1537,
+      "download_count": 1541,
       "created_at": "2026-04-10T10:03:46Z",
       "updated_at": "2026-04-10T10:03:46Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-msvc.zip.minisig"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1653271,
       "digest": "sha256:51b93737bf62e8549b0e94dce0fba92169e31c8ecc160883460a9bdaa6d2c298",
-      "download_count": 4793,
+      "download_count": 4807,
       "created_at": "2026-04-10T10:03:46Z",
       "updated_at": "2026-04-10T10:03:47Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.bz2"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 319,
       "digest": "sha256:0bc2622a58ceea2d079c5fcc6a6e6d22bcad8c911a36b77a70354000711ab412",
-      "download_count": 55,
+      "download_count": 56,
       "created_at": "2026-04-10T10:03:47Z",
       "updated_at": "2026-04-10T10:03:47Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.bz2.minisig"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 2008529,
       "digest": "sha256:adbdd8f16149e81ac6078a03aca6fc03b592b89ef7b5ed83841c086191be3349",
-      "download_count": 66676,
+      "download_count": 67008,
       "created_at": "2026-04-10T10:03:47Z",
       "updated_at": "2026-04-10T10:03:48Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 318,
       "digest": "sha256:c0186d6cf8c9c2ec5c6dbb6d4ff4f701e5592376490e8ad97a4ceeecabbff0f3",
-      "download_count": 236,
+      "download_count": 238,
       "created_at": "2026-04-10T10:03:48Z",
       "updated_at": "2026-04-10T10:03:48Z",
       "browser_download_url": "https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.gz.minisig"
