@@ -4,7 +4,7 @@
 
 A modern, portable, easy to use crypto library.
 
-![libsodium](https://repo.x-cmd.io/libsodium.svg)
+![libsodium](https://repo.x-cmd.io/libsodium.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,26 @@ x install libsodium
 - **最新版本**: `1.0.22-RELEASE` (2026-04-09)
 - **最近提交**: 2026-09-06
 - **Release 含资产**: 11 个
-- **发布时间**: 2026-04-09T23:30:13Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [libsodium-1.0.22-mingw.tar.gz](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-mingw.tar.gz) | 1.3 MiB | `native/unknown` |
+| [libsodium-1.0.22-mingw.tar.gz.minisig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-mingw.tar.gz.minisig) | 324 B | `other` |
+| [libsodium-1.0.22-mingw.tar.gz.sig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-mingw.tar.gz.sig) | 594 B | `other` |
+| [libsodium-1.0.22-msvc.zip](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-msvc.zip) | 16.9 MiB | `native/win/x64` |
+| [libsodium-1.0.22-msvc.zip.minisig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-msvc.zip.minisig) | 320 B | `native/win/x64` |
+| [libsodium-1.0.22-msvc.zip.sig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22-msvc.zip.sig) | 594 B | `native/win/x64` |
+| [libsodium-1.0.22.tar.bz2](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.bz2) | 1.6 MiB | `other` |
+| [libsodium-1.0.22.tar.bz2.minisig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.bz2.minisig) | 319 B | `other` |
+| [libsodium-1.0.22.tar.gz](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.gz) | 1.9 MiB | `native/unknown` |
+| [libsodium-1.0.22.tar.gz.minisig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.gz.minisig) | 318 B | `other` |
+| [libsodium-1.0.22.tar.gz.sig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.gz.sig) | 594 B | `other` |
 
 ## 流行度
 
-- **Star**: 13,945 · **Fork**: 1,885 · **开放 issue**: 854 · **贡献者**: 130
+- **Star**: 13,947 · **Fork**: 1,885 · **开放 issue**: 854 · **贡献者**: 130
 
 ## 累计统计
 
@@ -72,4 +87,4 @@ libsodium 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T03:20:08Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:55:49Z._
