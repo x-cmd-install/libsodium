@@ -7,7 +7,7 @@ about:
   latestVersion: "1.0.22-RELEASE"
   latestRelease: "1.0.22-RELEASE"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T15:55:39Z
+  collectedAt: 2026-09-10T20:13:05Z
 timeline:
   created: 2013-01-20
   lastCommit: 2026-09-06
@@ -94,7 +94,7 @@ total:
   commit: 4699
 ---
 path: /home/runner/.x-repo/github.com/jedisct1/libsodium
-collectedAt: 2026-09-10T15:55:42Z
+collectedAt: 2026-09-10T20:13:09Z
 loc:
   C:
     code: 46838
