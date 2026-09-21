@@ -14,11 +14,11 @@ x install libsodium
 
 ## Code insight
 
-Total: **78,870** lines of code across **480** files in the top 5 languages.
+Total: **78,880** lines of code across **480** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 46,838 | 1,300 | 5,910 | 250 |
+| C | 46,848 | 1,300 | 5,910 | 250 |
 | CHeader | 15,699 | 1,018 | 2,667 | 197 |
 | VisualStudioProject | 4,334 | 0 | 2 | 10 |
 | AssemblyGAS | 2,985 | 14 | 50 | 7 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.0.22-RELEASE` (2026-04-09)
-- **Last commit**: 2026-09-06
+- **Last commit**: 2026-09-20
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 13,955 · **Forks**: 1,885 · **Open issues**: 854 · **Contributors**: 130
+- **Stars**: 13,956 · **Forks**: 1,885 · **Open issues**: 854 · **Contributors**: 130
 
 ## Totals (cumulative)
 
-- **Releases**: 35 · **Merged PRs**: 241 · **Open PRs**: 0 · **Closed issues**: 853 · **Open issues**: 1 · **Commits**: 4699
+- **Releases**: 35 · **Merged PRs**: 241 · **Open PRs**: 0 · **Closed issues**: 853 · **Open issues**: 1 · **Commits**: 4700
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 0 | 0 | 3 | 0 | 10 |
-| last60d | 2026-07-22 | 0 | 0 | 0 | 3 | 0 | 12 |
-| 90d | 2026-06-22 | 0 | 0 | 0 | 4 | 0 | 21 |
-| last180d | 2026-03-24 | 1 | 0 | 0 | 7 | 0 | 67 |
-| 360d | 2025-09-25 | 2 | 3 | 0 | 17 | 0 | 257 |
-| last720d | 2024-09-30 | 2 | 5 | 0 | 31 | 1 | 320 |
+| 30d | 2026-08-22 | 0 | 0 | 0 | 3 | 0 | 3 |
+| last60d | 2026-07-23 | 0 | 0 | 0 | 3 | 0 | 13 |
+| 90d | 2026-06-23 | 0 | 0 | 0 | 4 | 0 | 21 |
+| last180d | 2026-03-25 | 1 | 0 | 0 | 7 | 0 | 64 |
+| 360d | 2025-09-26 | 2 | 3 | 0 | 16 | 0 | 258 |
+| last720d | 2024-10-01 | 2 | 5 | 0 | 31 | 1 | 321 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T03:39:50Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T03:34:42Z._
