@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.0.22-RELEASE` (2026-04-09)
-- **Last commit**: 2026-09-22
+- **Last commit**: 2026-09-28
 - **Assets in release**: 11
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 35 · **Merged PRs**: 241 · **Open PRs**: 0 · **Closed issues**: 854 · **Open issues**: 1 · **Commits**: 4701
+- **Releases**: 35 · **Merged PRs**: 241 · **Open PRs**: 0 · **Closed issues**: 854 · **Open issues**: 1 · **Commits**: 4702
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 0 | 0 | 3 | 0 | 3 |
-| last60d | 2026-07-30 | 0 | 0 | 0 | 4 | 0 | 13 |
-| 90d | 2026-06-30 | 0 | 0 | 0 | 4 | 0 | 20 |
-| last180d | 2026-04-01 | 1 | 0 | 0 | 8 | 0 | 54 |
-| 360d | 2025-10-03 | 2 | 3 | 0 | 16 | 0 | 258 |
-| last720d | 2024-10-08 | 2 | 5 | 0 | 32 | 1 | 322 |
+| 30d | 2026-08-30 | 0 | 0 | 0 | 2 | 0 | 4 |
+| last60d | 2026-07-31 | 0 | 0 | 0 | 4 | 0 | 14 |
+| 90d | 2026-07-01 | 0 | 0 | 0 | 4 | 0 | 21 |
+| last180d | 2026-04-02 | 1 | 0 | 0 | 8 | 0 | 55 |
+| 360d | 2025-10-04 | 2 | 3 | 0 | 16 | 0 | 259 |
+| last720d | 2024-10-09 | 2 | 5 | 0 | 32 | 1 | 323 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T03:56:31Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T04:30:52Z._
