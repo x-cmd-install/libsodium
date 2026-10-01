@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Security-Policy** (0/10) — security policy file not detected
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,971 · **Forks**: 1,886 · **Open issues**: 855 · **Contributors**: 130
+- **Stars**: 13,972 · **Forks**: 1,886 · **Open issues**: 855 · **Contributors**: 130
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 0 | 0 | 2 | 0 | 4 |
-| last60d | 2026-08-01 | 0 | 0 | 0 | 4 | 0 | 14 |
-| 90d | 2026-07-02 | 0 | 0 | 0 | 4 | 0 | 21 |
-| last180d | 2026-04-03 | 1 | 0 | 0 | 8 | 0 | 55 |
-| 360d | 2025-10-05 | 2 | 3 | 0 | 16 | 0 | 259 |
-| last720d | 2024-10-10 | 2 | 5 | 0 | 32 | 1 | 323 |
+| 30d | 2026-09-01 | 0 | 0 | 0 | 1 | 0 | 4 |
+| last60d | 2026-08-02 | 0 | 0 | 0 | 4 | 0 | 14 |
+| 90d | 2026-07-03 | 0 | 0 | 0 | 4 | 0 | 21 |
+| last180d | 2026-04-04 | 1 | 0 | 0 | 7 | 0 | 55 |
+| 360d | 2025-10-06 | 2 | 3 | 0 | 16 | 0 | 259 |
+| last720d | 2024-10-11 | 2 | 5 | 0 | 32 | 1 | 323 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T04:13:55Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T04:25:53Z._
