@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,030 · **Forks**: 1,887 · **Open issues**: 855 · **Contributors**: 132
+- **Stars**: 14,030 · **Forks**: 1,888 · **Open issues**: 855 · **Contributors**: 132
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 1 | 0 | 0 | 0 | 30 |
-| last60d | 2026-08-30 | 0 | 1 | 0 | 2 | 0 | 34 |
-| 90d | 2026-07-31 | 0 | 1 | 0 | 4 | 0 | 44 |
-| last180d | 2026-05-02 | 0 | 1 | 0 | 6 | 0 | 58 |
-| 360d | 2025-11-03 | 2 | 4 | 0 | 13 | 0 | 284 |
-| last720d | 2024-11-08 | 2 | 6 | 0 | 33 | 0 | 347 |
+| 30d | 2026-09-30 | 0 | 1 | 0 | 0 | 0 | 30 |
+| last60d | 2026-08-31 | 0 | 1 | 0 | 2 | 0 | 34 |
+| 90d | 2026-08-01 | 0 | 1 | 0 | 4 | 0 | 44 |
+| last180d | 2026-05-03 | 0 | 1 | 0 | 6 | 0 | 58 |
+| 360d | 2025-11-04 | 2 | 4 | 0 | 13 | 0 | 284 |
+| last720d | 2024-11-09 | 2 | 6 | 0 | 33 | 0 | 347 |
 
 ## Release assets
 
@@ -93,7 +93,7 @@ Reported by **240** distros on [repology.org](https://repology.org/project/libso
 | Ubuntu 26.04 LTS | `1.0.18` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.0.18` | ⚠️ outdated |
 | Arch | `1.0.22` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.0.22` | ✅ latest |
 | Fedora rawhide | `1.0.22` | ✅ latest |
 | Nix unstable | `1.0.22-unstable-2026-09-28` | ignored |
 | Void | `1.0.22` | ✅ latest |
@@ -109,4 +109,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T04:36:41Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T04:36:39Z._
