@@ -48,7 +48,7 @@ x install libsodium
 
 ## 流行度
 
-- **Star**: 14,044 · **Fork**: 1,888 · **开放 issue**: 857 · **贡献者**: 132
+- **Star**: 14,049 · **Fork**: 1,888 · **开放 issue**: 857 · **贡献者**: 132
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install libsodium
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 1 | 0 | 2 | 0 | 31 |
-| last60d | 2026-09-06 | 0 | 1 | 0 | 3 | 0 | 35 |
-| 90d | 2026-08-07 | 0 | 1 | 0 | 6 | 0 | 46 |
-| last180d | 2026-05-09 | 0 | 1 | 0 | 8 | 0 | 60 |
-| 360d | 2025-11-10 | 2 | 4 | 0 | 15 | 0 | 286 |
-| last720d | 2024-11-15 | 2 | 6 | 0 | 34 | 0 | 348 |
+| 30d | 2026-10-07 | 0 | 1 | 0 | 2 | 0 | 31 |
+| last60d | 2026-09-07 | 0 | 1 | 0 | 3 | 0 | 35 |
+| 90d | 2026-08-08 | 0 | 1 | 0 | 6 | 0 | 46 |
+| last180d | 2026-05-10 | 0 | 1 | 0 | 8 | 0 | 60 |
+| 360d | 2025-11-11 | 2 | 4 | 0 | 15 | 0 | 286 |
+| last720d | 2024-11-16 | 2 | 6 | 0 | 34 | 0 | 348 |
 
 ## Release 资产
 
@@ -93,7 +93,7 @@ x install libsodium
 | Ubuntu 26.04 LTS | `1.0.18` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.0.18` | ⚠️ outdated |
 | Arch | `1.0.22` | ✅ latest |
-| Homebrew | `1.0.22` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.0.22` | ✅ latest |
 | Nix unstable | `1.0.22-unstable-2026-09-28` | ignored |
 | Void | `1.0.22` | ✅ latest |
@@ -109,4 +109,4 @@ libsodium 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261105.yml` · 2026-11-05T05:23:09Z._
+_数据快照: `data/card/261106.yml` · 2026-11-06T05:22:13Z._
