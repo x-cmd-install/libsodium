@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,049 · **Forks**: 1,888 · **Open issues**: 857 · **Contributors**: 132
+- **Stars**: 14,047 · **Forks**: 1,887 · **Open issues**: 857 · **Contributors**: 132
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 1 | 0 | 2 | 0 | 31 |
-| last60d | 2026-09-07 | 0 | 1 | 0 | 3 | 0 | 35 |
-| 90d | 2026-08-08 | 0 | 1 | 0 | 6 | 0 | 46 |
-| last180d | 2026-05-10 | 0 | 1 | 0 | 8 | 0 | 60 |
-| 360d | 2025-11-11 | 2 | 4 | 0 | 15 | 0 | 286 |
-| last720d | 2024-11-16 | 2 | 6 | 0 | 34 | 0 | 348 |
+| 30d | 2026-10-08 | 0 | 1 | 0 | 2 | 0 | 31 |
+| last60d | 2026-09-08 | 0 | 1 | 0 | 3 | 0 | 35 |
+| 90d | 2026-08-09 | 0 | 1 | 0 | 6 | 0 | 46 |
+| last180d | 2026-05-11 | 0 | 1 | 0 | 8 | 0 | 60 |
+| 360d | 2025-11-12 | 2 | 4 | 0 | 15 | 0 | 286 |
+| last720d | 2024-11-17 | 2 | 6 | 0 | 34 | 0 | 348 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **242** distros on [repology.org](https://repology.org/project/libsodium). **76** are ✅ on the latest upstream release, **141** are ⚠️ on an older version.
+Reported by **240** distros on [repology.org](https://repology.org/project/libsodium). **79** are ✅ on the latest upstream release, **136** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,7 +93,7 @@ Reported by **242** distros on [repology.org](https://repology.org/project/libso
 | Ubuntu 26.04 LTS | `1.0.18` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.0.18` | ⚠️ outdated |
 | Arch | `1.0.22` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.0.22` | ✅ latest |
 | Fedora rawhide | `1.0.22` | ✅ latest |
 | Nix unstable | `1.0.22-unstable-2026-09-28` | ignored |
 | Void | `1.0.22` | ✅ latest |
@@ -109,4 +109,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T05:22:12Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T04:51:27Z._
