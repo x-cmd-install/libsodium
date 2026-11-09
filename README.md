@@ -14,7 +14,7 @@ x install libsodium
 
 ## Code insight
 
-Total: **81,780** lines of code across **488** files in the top 5 languages.
+Total: **81,796** lines of code across **488** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.0.22-RELEASE` (2026-04-09)
-- **Last commit**: 2026-11-07
+- **Last commit**: 2026-11-08
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 14,047 · **Forks**: 1,887 · **Open issues**: 857 · **Contributors**: 132
+- **Stars**: 14,047 · **Forks**: 1,887 · **Open issues**: 857 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 35 · **Merged PRs**: 242 · **Open PRs**: 1 · **Closed issues**: 857 · **Open issues**: 0 · **Commits**: 4737
+- **Releases**: 35 · **Merged PRs**: 243 · **Open PRs**: 0 · **Closed issues**: 857 · **Open issues**: 0 · **Commits**: 4738
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 1 | 1 | 2 | 0 | 12 |
-| last60d | 2026-09-09 | 0 | 1 | 1 | 3 | 0 | 37 |
-| 90d | 2026-08-10 | 0 | 1 | 1 | 6 | 0 | 47 |
-| last180d | 2026-05-12 | 0 | 1 | 1 | 8 | 0 | 62 |
-| 360d | 2025-11-13 | 2 | 4 | 1 | 15 | 0 | 278 |
-| last720d | 2024-11-18 | 2 | 6 | 1 | 34 | 0 | 350 |
+| 30d | 2026-10-10 | 0 | 2 | 0 | 2 | 0 | 13 |
+| last60d | 2026-09-10 | 0 | 2 | 0 | 3 | 0 | 38 |
+| 90d | 2026-08-11 | 0 | 2 | 0 | 6 | 0 | 48 |
+| last180d | 2026-05-13 | 0 | 2 | 0 | 8 | 0 | 63 |
+| 360d | 2025-11-14 | 2 | 5 | 0 | 15 | 0 | 279 |
+| last720d | 2024-11-19 | 2 | 7 | 0 | 34 | 0 | 351 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T04:42:55Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T04:53:12Z._
