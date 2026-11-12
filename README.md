@@ -14,11 +14,11 @@ x install libsodium
 
 ## Code insight
 
-Total: **81,796** lines of code across **488** files in the top 5 languages.
+Total: **81,776** lines of code across **488** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 49,239 | 1,325 | 6,286 | 254 |
+| C | 49,219 | 1,325 | 6,282 | 254 |
 | CHeader | 16,059 | 1,063 | 2,740 | 201 |
 | VisualStudioProject | 4,397 | 0 | 2 | 10 |
 | AssemblyGAS | 2,820 | 10 | 44 | 6 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.0.22-RELEASE` (2026-04-09)
-- **Last commit**: 2026-11-08
+- **Last commit**: 2026-11-11
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 14,057 · **Forks**: 1,887 · **Open issues**: 857 · **Contributors**: 133
+- **Stars**: 14,059 · **Forks**: 1,887 · **Open issues**: 857 · **Contributors**: 133
 
 ## Totals (cumulative)
 
-- **Releases**: 35 · **Merged PRs**: 243 · **Open PRs**: 0 · **Closed issues**: 857 · **Open issues**: 0 · **Commits**: 4738
+- **Releases**: 35 · **Merged PRs**: 243 · **Open PRs**: 1 · **Closed issues**: 857 · **Open issues**: 0 · **Commits**: 4743
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 2 | 0 | 2 | 0 | 13 |
-| last60d | 2026-09-12 | 0 | 2 | 0 | 3 | 0 | 38 |
-| 90d | 2026-08-13 | 0 | 2 | 0 | 6 | 0 | 48 |
-| last180d | 2026-05-15 | 0 | 2 | 0 | 8 | 0 | 63 |
-| 360d | 2025-11-16 | 2 | 5 | 0 | 15 | 0 | 279 |
-| last720d | 2024-11-21 | 2 | 7 | 0 | 34 | 0 | 351 |
+| 30d | 2026-10-13 | 0 | 2 | 1 | 2 | 0 | 18 |
+| last60d | 2026-09-13 | 0 | 2 | 1 | 3 | 0 | 43 |
+| 90d | 2026-08-14 | 0 | 2 | 1 | 6 | 0 | 53 |
+| last180d | 2026-05-16 | 0 | 2 | 1 | 8 | 0 | 68 |
+| 360d | 2025-11-17 | 2 | 5 | 1 | 15 | 0 | 284 |
+| last720d | 2024-11-22 | 2 | 7 | 1 | 34 | 0 | 356 |
 
 ## Release assets
 
@@ -83,7 +83,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **240** distros on [repology.org](https://repology.org/project/libsodium). **79** are ✅ on the latest upstream release, **136** are ⚠️ on an older version.
+Reported by **239** distros on [repology.org](https://repology.org/project/libsodium). **79** are ✅ on the latest upstream release, **135** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -93,9 +93,9 @@ Reported by **240** distros on [repology.org](https://repology.org/project/libso
 | Ubuntu 26.04 LTS | `1.0.18` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.0.18` | ⚠️ outdated |
 | Arch | `1.0.22` | ✅ latest |
-| Homebrew | `1.0.22` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.0.22` | ✅ latest |
-| Nix unstable | `1.0.22-unstable-2026-09-28` | ignored |
+| Nix unstable | `1.0.22-unstable-2026-10-15` | ignored |
 | Void | `1.0.22` | ✅ latest |
 | Alpine edge | `1.0.22` | ✅ latest |
 | openSUSE Tumbleweed | `1.0.22` | ✅ latest |
@@ -109,4 +109,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T04:54:57Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T05:56:34Z._
