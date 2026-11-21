@@ -1,24 +1,32 @@
-- repo: amazon_2
+- repo: raspbian_stable
+  subrepo: main
   srcname: libsodium
+  binnames:
+    - libsodium23
+    - libsodium-dev
   visiblename: libsodium
   version: 1.0.18
-  origversion: 1.0.18-3.amzn2.0.1
-  status: outdated
-  summary: The Sodium crypto library
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: libsodium
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: null
+  origversion: 1.0.18-1+deb13u1
   status: outdated
   maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
+    - gcs@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: libsodium
+  binnames:
+    - libsodium26
+    - libsodium-dev
+  visiblename: libsodium
+  version: 1.0.22
+  origversion: 1.0.22-2
+  status: newest
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - misc
+- repo: slackware64_15_0
   subrepo: patches
   binname: libsodium
   visiblename: libsodium
@@ -27,42 +35,54 @@
   status: outdated
   maintainers:
     - volkerdi@slackware.com
-- repo: chromebrew
-  srcname: libsodium
-  visiblename: libsodium
-  version: 1.0.20
-  origversion: null
-  status: outdated
-  summary: A modern, portable, easy to use crypto library
-  licenses:
-    - ISC
-- repo: conancenter
-  srcname: libsodium
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: libsodium
   visiblename: libsodium
   version: 1.0.22
   origversion: null
   status: newest
-- repo: crux_37
-  subrepo: contrib
+  maintainers:
+    - volkerdi@slackware.com
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: libsodium
+  binnames:
+    - libsodium-dev
+    - libsodium23
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-1+deb13u1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - libdevel
+- repo: nix_stable_25_05
   srcname: libsodium
   visiblename: libsodium
   version: 1.0.20
   origversion: null
   status: outdated
-  summary: A modern, portable, easy to use crypto library
+  summary: Modern and easy-to-use crypto library
   maintainers:
-    - tbier@posteo.de
-- repo: amazon_2
+    - 7c6f434c@mail.ru
+  licenses:
+    - ISC
+- repo: cygwin
   srcname: libsodium
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-2.amzn2
-  status: outdated
-  summary: The Sodium crypto library
+  binname: libsodium18
+  visiblename: libsodium18
+  version: 1.0.22
+  origversion: 1.0.22-1
+  status: newest
+  summary: Sodium crypto library
+  maintainers:
+    - libor.ukropec@cygwin
   licenses:
     - ISC
   categories:
-    - Unspecified
+    - Libs
 - repo: adelie_current
   subrepo: user
   srcname: libsodium
@@ -187,6 +207,29 @@
     - developer@it-offshore.co.uk
   licenses:
     - ISC
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: libsodium
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: cygwin
+  srcname: libsodium
+  binname: libsodium23
+  visiblename: libsodium23
+  version: 1.0.22
+  origversion: 1.0.22-1
+  status: newest
+  summary: Sodium crypto library
+  maintainers:
+    - libor.ukropec@cygwin
+  licenses:
+    - ISC
+  categories:
+    - Libs
 - repo: alpine_3_18
   subrepo: main
   srcname: libsodium
@@ -434,6 +477,15 @@
     - dne+alpine@mayonnaise.net
   licenses:
     - ISC
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: libsodium
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: alpine_edge
   subrepo: main
   srcname: libsodium
@@ -509,6 +561,28 @@
     - ISC
   categories:
     - System/Libraries
+- repo: amazon_2
+  srcname: libsodium
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-2.amzn2
+  status: outdated
+  summary: The Sodium crypto library
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: amazon_2
+  srcname: libsodium
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-3.amzn2.0.1
+  status: outdated
+  summary: The Sodium crypto library
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
 - repo: aosc
   srcname: runtime-cryptography/libsodium
   binname: libsodium
@@ -605,6 +679,20 @@
     - martchus@aur
   licenses:
     - custom:ISC
+- repo: cygwin
+  srcname: libsodium
+  binname: libsodium26
+  visiblename: libsodium26
+  version: 1.0.22
+  origversion: 1.0.22-1
+  status: newest
+  summary: Sodium crypto library
+  maintainers:
+    - libor.ukropec@cygwin
+  licenses:
+    - ISC
+  categories:
+    - Libs
 - repo: aur
   srcname: android-aarch64-libsodium
   binname: android-aarch64-libsodium
@@ -666,6 +754,18 @@
   licenses:
     - custom:ISC
 - repo: aur
+  srcname: sodium-git
+  binname: sodium-git
+  visiblename: sodium-git
+  version: 0.1.0.319.3bb1da3
+  origversion: 0.1.0.319.3bb1da3-1
+  status: rolling
+  summary: Sodium is an editor inspired by Vim (but not a clone). It aims to be efficient, fast, and productive.
+  maintainers:
+    - fallback-mnt-aur@repology
+  licenses:
+    - MIT
+- repo: aur
   srcname: lib32-libsodium
   binname: lib32-libsodium
   visiblename: lib32-libsodium
@@ -701,18 +801,6 @@
     - chocobo1@aur
   licenses:
     - custom:ISC
-- repo: aur
-  srcname: sodium-git
-  binname: sodium-git
-  visiblename: sodium-git
-  version: 0.1.0.319.3bb1da3
-  origversion: 0.1.0.319.3bb1da3-1
-  status: rolling
-  summary: Sodium is an editor inspired by Vim (but not a clone). It aims to be efficient, fast, and productive.
-  maintainers:
-    - fallback-mnt-aur@repology
-  licenses:
-    - MIT
 - repo: artix
   subrepo: world
   srcname: libsodium
@@ -746,6 +834,17 @@
   summary: Modern and easy-to-use crypto library (development files)
   licenses:
     - ISC
+- repo: nix_stable_24_05
+  srcname: libsodium
+  visiblename: libsodium
+  version: 1.0.19
+  origversion: null
+  status: outdated
+  summary: A modern and easy-to-use crypto library
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - ISC
 - repo: chimera
   subrepo: main
   srcname: libsodium
@@ -768,6 +867,31 @@
   summary: Modern and easy-to-use crypto library (documentation)
   licenses:
     - ISC
+- repo: chromebrew
+  srcname: libsodium
+  visiblename: libsodium
+  version: 1.0.20
+  origversion: null
+  status: outdated
+  summary: A modern, portable, easy to use crypto library
+  licenses:
+    - ISC
+- repo: conancenter
+  srcname: libsodium
+  visiblename: libsodium
+  version: 1.0.22
+  origversion: null
+  status: newest
+- repo: crux_37
+  subrepo: contrib
+  srcname: libsodium
+  visiblename: libsodium
+  version: 1.0.20
+  origversion: null
+  status: outdated
+  summary: A modern, portable, easy to use crypto library
+  maintainers:
+    - tbier@posteo.de
 - repo: crux_38
   subrepo: contrib
   srcname: libsodium
@@ -905,48 +1029,6 @@
   categories:
     - Libs
 - repo: cygwin
-  srcname: libsodium
-  binname: libsodium18
-  visiblename: libsodium18
-  version: 1.0.22
-  origversion: 1.0.22-1
-  status: newest
-  summary: Sodium crypto library
-  maintainers:
-    - libor.ukropec@cygwin
-  licenses:
-    - ISC
-  categories:
-    - Libs
-- repo: cygwin
-  srcname: libsodium
-  binname: libsodium23
-  visiblename: libsodium23
-  version: 1.0.22
-  origversion: 1.0.22-1
-  status: newest
-  summary: Sodium crypto library
-  maintainers:
-    - libor.ukropec@cygwin
-  licenses:
-    - ISC
-  categories:
-    - Libs
-- repo: cygwin
-  srcname: libsodium
-  binname: libsodium26
-  visiblename: libsodium26
-  version: 1.0.22
-  origversion: 1.0.22-1
-  status: newest
-  summary: Sodium crypto library
-  maintainers:
-    - libor.ukropec@cygwin
-  licenses:
-    - ISC
-  categories:
-    - Libs
-- repo: cygwin
   srcname: mingw64-i686-libsodium
   binname: mingw64-i686-libsodium
   visiblename: mingw64-i686-libsodium
@@ -999,20 +1081,6 @@
   categories:
     - misc
 - repo: debian_12
-  subrepo: bookworm/main
-  srcname: libsodium
-  binnames:
-    - libsodium23
-    - libsodium-dev
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-1+deb12u1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - misc
-- repo: debian_12
   subrepo: bookworm-security/main
   srcname: libsodium
   binnames:
@@ -1026,8 +1094,22 @@
     - gcs@debian.org
   categories:
     - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: libsodium
+  binnames:
+    - libsodium23
+    - libsodium-dev
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-1+deb12u1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - misc
 - repo: debian_13
-  subrepo: trixie/main
+  subrepo: trixie-security/main
   srcname: libsodium
   binnames:
     - libsodium23
@@ -1041,7 +1123,7 @@
   categories:
     - misc
 - repo: debian_13
-  subrepo: trixie-security/main
+  subrepo: trixie/main
   srcname: libsodium
   binnames:
     - libsodium23
@@ -1082,18 +1164,6 @@
     - gcs@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: libsodium
-  binnames:
-    - libsodium23
-    - libsodium-dev
-  visiblename: libsodium
-  version: 1.0.17
-  origversion: 1.0.17-1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
 - repo: deepin_23
   subrepo: main
   srcname: libsodium
@@ -1150,6 +1220,17 @@
     - gcs@debian.org
   categories:
     - misc
+- repo: nix_stable_24_11
+  srcname: libsodium
+  visiblename: libsodium
+  version: 1.0.20
+  origversion: null
+  status: outdated
+  summary: Modern and easy-to-use crypto library
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - ISC
 - repo: epel_7
   srcname: libsodium
   visiblename: libsodium
@@ -1230,26 +1311,6 @@
   categories:
     - dev-libs
 - repo: fedora_39
-  subrepo: updates
-  srcname: libsodium
-  binnames:
-    - libsodium
-    - libsodium-devel
-    - libsodium-static
-    - mingw32-libsodium
-    - mingw64-libsodium
-    - libsodium-debuginfo
-    - libsodium-debugsource
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-15.fc39
-  status: outdated
-  summary: The Sodium crypto library
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: libsodium
   binnames:
@@ -1263,6 +1324,26 @@
   visiblename: libsodium
   version: 1.0.18
   origversion: 1.0.18-14.fc39
+  status: outdated
+  summary: The Sodium crypto library
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: libsodium
+  binnames:
+    - libsodium
+    - libsodium-devel
+    - libsodium-static
+    - mingw32-libsodium
+    - mingw64-libsodium
+    - libsodium-debuginfo
+    - libsodium-debugsource
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-15.fc39
   status: outdated
   summary: The Sodium crypto library
   licenses:
@@ -1310,24 +1391,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: libsodium
-  binnames:
-    - libsodium
-    - libsodium-devel
-    - libsodium-static
-    - mingw32-libsodium
-    - mingw64-libsodium
-  visiblename: libsodium
-  version: 1.0.20
-  origversion: 1.0.20-2.fc41
-  status: outdated
-  summary: The Sodium crypto library
-  licenses:
-    - ISC
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: libsodium
   binnames:
@@ -1339,6 +1402,24 @@
   visiblename: libsodium
   version: 1.0.20
   origversion: 1.0.20-3.fc41
+  status: outdated
+  summary: The Sodium crypto library
+  licenses:
+    - ISC
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: libsodium
+  binnames:
+    - libsodium
+    - libsodium-devel
+    - libsodium-static
+    - mingw32-libsodium
+    - mingw64-libsodium
+  visiblename: libsodium
+  version: 1.0.20
+  origversion: 1.0.20-2.fc41
   status: outdated
   summary: The Sodium crypto library
   licenses:
@@ -1401,20 +1482,6 @@
     - ISC AND BSD-2-Clause AND CC0-1.0
   categories:
     - Unspecified
-- repo: macports
-  srcname: devel/libsodium
-  binname: libsodium
-  visiblename: libsodium
-  version: 1.0.22
-  origversion: null
-  status: newest
-  summary: Portable and packageable NaCl-based crypto library
-  maintainers:
-    - nomaintainer@macports.org
-  licenses:
-    - ISC
-  categories:
-    - devel
 - repo: fedora_43
   subrepo: updates
   srcname: libsodium
@@ -1436,6 +1503,24 @@
   categories:
     - Unspecified
 - repo: fedora_44
+  subrepo: release
+  srcname: libsodium
+  binnames:
+    - libsodium
+    - libsodium-devel
+    - libsodium-static
+    - mingw32-libsodium
+    - mingw64-libsodium
+  visiblename: libsodium
+  version: 1.0.21
+  origversion: 1.0.21-3.fc44
+  status: legacy
+  summary: The Sodium crypto library
+  licenses:
+    - ISC AND BSD-2-Clause AND CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_44
   subrepo: updates
   srcname: libsodium
   binnames:
@@ -1450,24 +1535,6 @@
   version: 1.0.22
   origversion: 1.0.22-1.fc44
   status: newest
-  summary: The Sodium crypto library
-  licenses:
-    - ISC AND BSD-2-Clause AND CC0-1.0
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: libsodium
-  binnames:
-    - libsodium
-    - libsodium-devel
-    - libsodium-static
-    - mingw32-libsodium
-    - mingw64-libsodium
-  visiblename: libsodium
-  version: 1.0.21
-  origversion: 1.0.21-3.fc44
-  status: legacy
   summary: The Sodium crypto library
   licenses:
     - ISC AND BSD-2-Clause AND CC0-1.0
@@ -1689,29 +1756,20 @@
     - ISC
   categories:
     - dev-libs
-- repo: slackware64_current
-  subrepo: slackware64
+- repo: macports
+  srcname: devel/libsodium
   binname: libsodium
   visiblename: libsodium
   version: 1.0.22
   origversion: null
   status: newest
+  summary: Portable and packageable NaCl-based crypto library
   maintainers:
-    - volkerdi@slackware.com
-- repo: openkylin_2_0
-  subrepo: nile/main
-  srcname: libsodium
-  binnames:
-    - libsodium23
-    - libsodium-dev
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-ok1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
+    - nomaintainer@macports.org
+  licenses:
+    - ISC
   categories:
-    - libs
+    - devel
 - repo: mageia_10
   subrepo: core/release
   srcname: sodium
@@ -1816,39 +1874,20 @@
   summary: P(ortable|ackageable) NaCl-based crypto library (mingw-w64)
   licenses:
     - spdx:ISC
-- repo: nix_stable_24_05
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: libsodium
+  binnames:
+    - libsodium23
+    - libsodium-dev
   visiblename: libsodium
-  version: 1.0.19
-  origversion: null
+  version: 1.0.18
+  origversion: 1.0.18-1+deb12u1
   status: outdated
-  summary: A modern and easy-to-use crypto library
   maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - ISC
-- repo: nix_stable_24_11
-  srcname: libsodium
-  visiblename: libsodium
-  version: 1.0.20
-  origversion: null
-  status: outdated
-  summary: Modern and easy-to-use crypto library
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - ISC
-- repo: nix_stable_25_05
-  srcname: libsodium
-  visiblename: libsodium
-  version: 1.0.20
-  origversion: null
-  status: outdated
-  summary: Modern and easy-to-use crypto library
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - ISC
+    - gcs@debian.org
+  categories:
+    - misc
 - repo: nix_stable_25_11
   srcname: libsodium
   visiblename: libsodium
@@ -2020,6 +2059,20 @@
     - ISC
   categories:
     - Unspecified
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: libsodium
+  binnames:
+    - libsodium-dev
+    - libsodium23
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - libdevel
 - repo: openeuler_25_03
   srcname: libsodium
   binnames:
@@ -2049,6 +2102,20 @@
     - System/Security
 - repo: openkylin_1_0
   subrepo: yangtze/main
+  srcname: libsodium
+  binnames:
+    - libsodium23
+    - libsodium-dev
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-ok1
+  status: outdated
+  maintainers:
+    - gcs@debian.org
+  categories:
+    - libs
+- repo: openkylin_2_0
+  subrepo: nile/main
   srcname: libsodium
   binnames:
     - libsodium23
@@ -2151,18 +2218,6 @@
   categories:
     - System/Libraries
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: libsodium
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-150000.4.6.1
-  status: outdated
-  summary: Portable NaCl-based crypto library
-  licenses:
-    - ISC
-  categories:
-    - System/Libraries
-- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: libsodium
   visiblename: libsodium
@@ -2174,7 +2229,7 @@
     - ISC
   categories:
     - System/Libraries
-- repo: opensuse_leap_15_6
+- repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: libsodium
   visiblename: libsodium
@@ -2216,6 +2271,18 @@
   visiblename: libsodium
   version: 1.0.18
   origversion: 1.0.18-150000.4.8.1
+  status: outdated
+  summary: Portable NaCl-based crypto library
+  licenses:
+    - ISC
+  categories:
+    - System/Libraries
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: libsodium
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-150000.4.6.1
   status: outdated
   summary: Portable NaCl-based crypto library
   licenses:
@@ -2417,76 +2484,6 @@
     - gcs@debian.org
   categories:
     - libdevel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: libsodium
-  binnames:
-    - libsodium-dev
-    - libsodium23
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - libdevel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: libsodium
-  binnames:
-    - libsodium-dev
-    - libsodium23
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-1+deb13u1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - libdevel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: libsodium
-  binnames:
-    - libsodium23
-    - libsodium-dev
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-1+deb12u1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: libsodium
-  binnames:
-    - libsodium23
-    - libsodium-dev
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-1+deb13u1
-  status: outdated
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: libsodium
-  binnames:
-    - libsodium26
-    - libsodium-dev
-  visiblename: libsodium
-  version: 1.0.22
-  origversion: 1.0.22-2
-  status: newest
-  maintainers:
-    - gcs@debian.org
-  categories:
-    - misc
 - repo: ravenports
   srcname: libsodium
   binname: libsodium
@@ -2595,15 +2592,6 @@
     - volkerdi@slackware.com
 - repo: slackware64_15_0
   subrepo: slackware64
-  binname: libsodium
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: patches
   binname: libsodium
   visiblename: libsodium
   version: 1.0.18
@@ -2843,20 +2831,6 @@
   categories:
     - misc
 - repo: ubuntu_24_04
-  subrepo: noble-updates/main
-  srcname: libsodium
-  binnames:
-    - libsodium23
-    - libsodium-dev
-  visiblename: libsodium
-  version: 1.0.18
-  origversion: 1.0.18-1ubuntu0.24.04.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - misc
-- repo: ubuntu_24_04
   subrepo: noble/main
   srcname: libsodium
   binnames:
@@ -2870,15 +2844,15 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - misc
-- repo: ubuntu_25_04
-  subrepo: plucky/main
+- repo: ubuntu_24_04
+  subrepo: noble-updates/main
   srcname: libsodium
   binnames:
     - libsodium23
     - libsodium-dev
   visiblename: libsodium
   version: 1.0.18
-  origversion: 1.0.18-1build3
+  origversion: 1.0.18-1ubuntu0.24.04.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2898,15 +2872,15 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - misc
-- repo: ubuntu_25_10
-  subrepo: questing-updates/main
+- repo: ubuntu_25_04
+  subrepo: plucky/main
   srcname: libsodium
   binnames:
     - libsodium23
     - libsodium-dev
   visiblename: libsodium
   version: 1.0.18
-  origversion: 1.0.18-1ubuntu0.25.10.1
+  origversion: 1.0.18-1build3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2921,6 +2895,20 @@
   visiblename: libsodium
   version: 1.0.18
   origversion: 1.0.18-1build3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - misc
+- repo: ubuntu_25_10
+  subrepo: questing-updates/main
+  srcname: libsodium
+  binnames:
+    - libsodium23
+    - libsodium-dev
+  visiblename: libsodium
+  version: 1.0.18
+  origversion: 1.0.18-1ubuntu0.25.10.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
