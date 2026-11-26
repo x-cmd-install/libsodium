@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,075 · **Forks**: 1,892 · **Open issues**: 858 · **Contributors**: 134
+- **Stars**: 14,078 · **Forks**: 1,893 · **Open issues**: 858 · **Contributors**: 134
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 2 | 0 | 3 | 0 | 41 |
-| last60d | 2026-09-26 | 0 | 3 | 0 | 3 | 0 | 72 |
-| 90d | 2026-08-27 | 0 | 3 | 0 | 6 | 0 | 77 |
-| last180d | 2026-05-29 | 0 | 3 | 0 | 9 | 0 | 97 |
-| 360d | 2025-11-30 | 2 | 6 | 0 | 16 | 0 | 314 |
-| last720d | 2024-12-05 | 2 | 8 | 0 | 34 | 0 | 388 |
+| 30d | 2026-10-27 | 0 | 2 | 0 | 3 | 0 | 41 |
+| last60d | 2026-09-27 | 0 | 3 | 0 | 3 | 0 | 72 |
+| 90d | 2026-08-28 | 0 | 3 | 0 | 6 | 0 | 77 |
+| last180d | 2026-05-30 | 0 | 3 | 0 | 9 | 0 | 97 |
+| 360d | 2025-12-01 | 2 | 6 | 0 | 16 | 0 | 314 |
+| last720d | 2024-12-06 | 2 | 8 | 0 | 34 | 0 | 388 |
 
 ## Release assets
 
@@ -81,25 +81,6 @@ Lowest-scoring checks:
 | [libsodium-1.0.22.tar.gz.minisig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.gz.minisig) | 318 B | `other` |
 | [libsodium-1.0.22.tar.gz.sig](https://github.com/jedisct1/libsodium/releases/download/1.0.22-RELEASE/libsodium-1.0.22.tar.gz.sig) | 594 B | `other` |
 
-## Distribution status
-
-Reported by **235** distros on [repology.org](https://repology.org/project/libsodium). **79** are ✅ on the latest upstream release, **131** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.0.22` | ✅ latest |
-| Debian 14 | `1.0.22` | ✅ latest |
-| Debian 13 | `1.0.18` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.0.18` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.0.18` | ⚠️ outdated |
-| Arch | `1.0.22` | ✅ latest |
-| Homebrew | `1.0.22` | ✅ latest |
-| Fedora rawhide | `1.0.22` | ✅ latest |
-| Nix unstable | `1.0.22-unstable-2026-10-15` | ignored |
-| Void | `1.0.22` | ✅ latest |
-| Alpine edge | `1.0.22` | ✅ latest |
-| openSUSE Tumbleweed | `1.0.22` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `libsodium` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -109,4 +90,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T07:13:07Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T07:02:32Z._
