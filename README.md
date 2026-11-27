@@ -14,7 +14,7 @@ x install libsodium
 
 ## Code insight
 
-Total: **81,966** lines of code across **489** files in the top 5 languages.
+Total: **81,977** lines of code across **489** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -22,7 +22,7 @@ Total: **81,966** lines of code across **489** files in the top 5 languages.
 | CHeader | 16,169 | 1,082 | 2,769 | 202 |
 | VisualStudioProject | 4,397 | 0 | 2 | 10 |
 | AssemblyGAS | 2,826 | 10 | 44 | 6 |
-| Zig | 2,066 | 7 | 204 | 17 |
+| Zig | 2,071 | 7 | 205 | 17 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.0.22-RELEASE` (2026-04-09)
-- **Last commit**: 2026-11-23
+- **Last commit**: 2026-11-26
 - **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 14,078 · **Forks**: 1,893 · **Open issues**: 858 · **Contributors**: 134
+- **Stars**: 14,080 · **Forks**: 1,893 · **Open issues**: 859 · **Contributors**: 134
 
 ## Totals (cumulative)
 
-- **Releases**: 35 · **Merged PRs**: 244 · **Open PRs**: 0 · **Closed issues**: 858 · **Open issues**: 0 · **Commits**: 4777
+- **Releases**: 35 · **Merged PRs**: 244 · **Open PRs**: 0 · **Closed issues**: 859 · **Open issues**: 0 · **Commits**: 4780
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 2 | 0 | 3 | 0 | 41 |
-| last60d | 2026-09-27 | 0 | 3 | 0 | 3 | 0 | 72 |
-| 90d | 2026-08-28 | 0 | 3 | 0 | 6 | 0 | 77 |
-| last180d | 2026-05-30 | 0 | 3 | 0 | 9 | 0 | 97 |
-| 360d | 2025-12-01 | 2 | 6 | 0 | 16 | 0 | 314 |
-| last720d | 2024-12-06 | 2 | 8 | 0 | 34 | 0 | 388 |
+| 30d | 2026-10-28 | 0 | 2 | 0 | 4 | 0 | 44 |
+| last60d | 2026-09-28 | 0 | 3 | 0 | 4 | 0 | 75 |
+| 90d | 2026-08-29 | 0 | 3 | 0 | 7 | 0 | 80 |
+| last180d | 2026-05-31 | 0 | 3 | 0 | 10 | 0 | 100 |
+| 360d | 2025-12-02 | 2 | 6 | 0 | 17 | 0 | 317 |
+| last720d | 2024-12-07 | 2 | 8 | 0 | 35 | 0 | 391 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for libsodium lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T07:02:32Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T06:57:48Z._
